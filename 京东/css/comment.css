@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 12px/150% tahoma, arial, Microsoft YaHei, Hiragino Sans GB, "\u5b8b\u4f53", sans-serif;
+    color: #666;
+    background-color: #fff;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+em,
+i,
+u {
+    font-style: normal;
+}
+
+.w {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}

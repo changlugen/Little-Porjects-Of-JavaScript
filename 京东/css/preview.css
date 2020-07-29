@@ -1,0 +1,158 @@
+.product-intro {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.preview-wrap {
+    float: left;
+    width: 452px;
+    padding-bottom: 15px;
+}
+
+.preview .jqzoom {
+    position: relative;
+}
+
+.preview .preview-btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+    left: 0;
+    bottom: 62px;
+}
+
+.preview .main-img {
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.preview .main-img i {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/__sprite.png);
+    background-position: 0 -24px;
+}
+
+.preview .spec-list {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.preview .spec-list .arrow-prev {
+    left: 0;
+}
+
+.preview .spec-list .arrow-next {
+    right: 0;
+}
+
+.preview .spec-list .arrow-prev,
+.preview .spec-list .arrow-next {
+    position: absolute;
+    display: block;
+    top: 50%;
+    margin-top: -16px;
+    width: 22px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.spec-list .arrow-prev i,
+.spec-list .arrow-next i {
+    display: block;
+}
+
+.preview .spec-list .arrow-prev i {
+    width: 22px;
+    height: 32px;
+    background-image: url(../img/disabled-prev.png);
+}
+
+.preview .spec-list .arrow-next i {
+    width: 22px;
+    height: 32px;
+    background-image: url(../img/__sprite.png);
+    background-position: -78px 0;
+}
+
+.preview .spec-items {
+    margin: 0 auto;
+}
+
+.preview .spec-items ul li {
+    float: left;
+    margin: 0 9px;
+}
+
+.preview .preview-info .left-btns {
+    float: left;
+}
+
+.preview .preview-info .right-btns {
+    float: right;
+}
+
+.preview .preview-info .left-btns a i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.preview .preview-info .left-btns .follow i {
+    width: 14px;
+    height: 13px;
+    background-image: url(../img/__sprite.png);
+    background-position: -44px -40px;
+}
+
+.preview .preview-info .left-btns .share i {
+    width: 14px;
+    height: 13px;
+    background-image: url(../img/__sprite.png);
+    background-position: -44px -24px;
+}
+
+.preview .preview-info .left-btns .compare i {
+    width: 14px;
+    height: 13px;
+    background-image: url(../img/__sprite.png);
+    background-position: -30px -24px;
+}
+
+.itemInfo-wrap {
+    float: right;
+    width: 738px;
+}
+
+.itemInfo-wrap .sku-name {
+    font: 700 16px Arial, "microsoft yahei";
+    color: #666;
+    margin-top: 10px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.itemInfo-wrap .news {
+    color: #e4393c;
+    margin-bottom: 5px;
+}
+
+.itemInfo-wrap .news .item {
+    width: 738px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-height: 1.5em;
+    line-height: 1.5em;
+}
+
+.p-ad-phone {
+    line-height: 18px;
+}
