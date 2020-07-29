@@ -133,7 +133,7 @@
 .itemInfo-wrap .sku-name {
     font: 700 16px Arial, "microsoft yahei";
     color: #666;
-    margin-top: 10px;
+    padding-top: 10px;
     line-height: 28px;
     margin-bottom: 5px;
 }
