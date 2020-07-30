@@ -130,6 +130,11 @@
     width: 738px;
 }
 
+.itemInfo-wrap .news a {
+    color: #5e69ad;
+    text-decoration: underline;
+}
+
 .itemInfo-wrap .sku-name {
     font: 700 16px Arial, "microsoft yahei";
     color: #666;
@@ -155,4 +160,229 @@
 
 .p-ad-phone {
     line-height: 18px;
+}
+
+.itemInfo-wrap .summary {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.itemInfo-wrap .summary-price-wrap {
+    padding: 10px 0 0;
+    background: #f3f3f3;
+}
+
+.itemInfo-wrap .summary-price {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-price .dt {
+    line-height: 22px;
+}
+
+.itemInfo-wrap .dt {
+    float: left;
+    padding-left: 10px;
+    font-family: simsun;
+    color: #999;
+}
+
+.itemInfo-wrap .dd {
+    margin-left: 70px;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-price .p-price {
+    color: #e4393c;
+    font-family: "microsoft yahei";
+    margin-right: 10px;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-price .p-price price {
+    font-size: 22px;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-price .p-price span {
+    font-size: 16px;
+}
+
+.p-price {
+    overflow: hidden;
+}
+
+.p-price .price {
+    color: #e4393c;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-price .notice {
+    color: #005aa0;
+    vertical-align: 2px;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-info {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: #999;
+    z-index: 1;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-info .item {
+    border-left: 1px solid #e6e6e6;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 15px;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-info .item p {
+    color: #999;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-info .item .count {
+    font: 14px verdana;
+    color: #005ea7;
+}
+
+#summary-quan {
+    padding-bottom: 2px;
+}
+
+.li {
+    display: block;
+    margin-bottom: 3px;
+    line-height: 32px;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-top {
+    display: block;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-top .summary-promotion {
+    background: url(../img/price-bg.png) 0 -12px repeat-x #efefef;
+    padding-bottom: 5px;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-top .summary-promotion .dt {
+    float: left;
+    line-height: 30px;
+    padding-left: 10px;
+    font-family: simsun;
+    color: #999;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-top .summary-promotion .p-promotions-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-top .summary-promotion .p-promotions-wrap .p-promotions {
+    position: relative;
+    line-height: 30px;
+    padding-right: 90px;
+    min-height: 35px;
+}
+
+.prom-gifts {
+    padding-left: 40px;
+}
+
+.prom-gift-label {
+    width: 40px;
+}
+
+.prom-gift-label,
+.prom-plus-gift-label {
+    margin-left: -40px;
+    float: left;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-top .summary-promotion .p-promotions-wrap .p-promotions .hl_red_bg {
+    display: inline-block;
+    color: #df3033;
+    line-height: 16px;
+    border: 1px solid #df3033;
+    padding: 2px 3px;
+    margin-right: 5px;
+}
+
+.prom-gift-list {
+    width: 100%;
+    float: left;
+}
+
+.prom-gift-list .prom-gift-item {
+    float: left;
+    padding: 0 5px;
+    height: 30px;
+    white-space: nowrap;
+}
+
+.prom-gift-list .gift-number {
+    font-size: 12px;
+    font-family: arial;
+    color: #e4393c;
+}
+
+.prom-gift-list .gift-limit {
+    color: #999;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-top .p-promotions .hl_red_bg {
+    color: #666;
+    line-height: 18px;
+}
+
+.itemInfo-wrap .s-arrow {
+    font-family: simsun;
+    text-decoration: none;
+}
+
+.itemInfo-wrap .summary-price-wrap .summary-top .p-promotions .view-all-promotions {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    width: 80px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.choose-support li {
+    float: left;
+    margin-right: 10px;
+}
+
+.choose-support a {
+    display: inline-block;
+    line-height: 18px;
+}
+
+.choose-support a .sprite-old2new,
+.choose-support a .sprite-tcbg {
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/__sprite_2.png);
+}
+
+.choose-support a .sprite-old2new {
+    background-position: 0 -32px;
+}
+
+.choose-support a i {
+    display: inline-block;
+    vertical-align: -4px;
+}
+
+.choose-support a span {
+    position: relative;
+    display: inline-block;
+    line-height: 16px;
+    padding: 0 5px 0 18px;
+    margin-left: -18px;
+    border: 1px solid #5e69ad;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.choose-support a .sprite-tcbg {
+    background-position: -32px -32px;
 }

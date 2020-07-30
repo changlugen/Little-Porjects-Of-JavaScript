@@ -50,3 +50,7 @@ u {
 .hide {
     display: none;
 }
+
+.fl {
+    float: left;
+}
